@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { TemplateComponent } from './template/template.component';
 import {SharedModule} from './shared/shared.module';
+import { BibliotecaComponent } from './pages/biblioteca/biblioteca.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    TemplateComponent
+    TemplateComponent,
+    BibliotecaComponent
   ],
   imports: [
     BrowserModule,
