@@ -7,9 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LibroComponent implements OnInit {
 
-  constructor() { }
+  
 
   ngOnInit() {
   }
 
+  
 }
